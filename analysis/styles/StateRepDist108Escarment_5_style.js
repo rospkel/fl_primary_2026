@@ -1,14 +1,14 @@
 var size = 0;
 var placement = 'point';
 
-var style_TurnoutMiamiDade_1 = function(feature, resolution){
+var style_StateRepDist108Escarment_5 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
     };
     
     var labelText = ""; 
-    var value = feature.get("% Dem");
+    var value = feature.get("Dem State Representative Dist 108-results-Miami-Dade_Dinah J. Escarment %");
     var labelFont = "10px, sans-serif";
     var labelFill = "#000000";
     var bufferColor = "";

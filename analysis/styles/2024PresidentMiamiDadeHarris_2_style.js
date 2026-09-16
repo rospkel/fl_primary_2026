@@ -1,14 +1,14 @@
 var size = 0;
 var placement = 'point';
 
-var style_TurnoutMiamiDade_1 = function(feature, resolution){
+var style_2024PresidentMiamiDadeHarris_2 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
     };
     
     var labelText = ""; 
-    var value = feature.get("% Dem");
+    var value = feature.get("President and Vice President-results-Miami-Dade_Kamala D. Harris %");
     var labelFont = "10px, sans-serif";
     var labelFill = "#000000";
     var bufferColor = "";

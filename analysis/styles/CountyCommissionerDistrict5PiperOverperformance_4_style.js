@@ -22,42 +22,28 @@ var style_CountyCommissionerDistrict5PiperOverperformance_4 = function(feature, 
     if ("" !== null) {
         labelText = String("");
     }
-    if (value >= 0.088235 && value <= 0.157290) {
+    if (value >= 0.088235 && value <= 0.191818) {
             style = [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(215,25,28,0.5)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })]
-                    } else if (value >= 0.157290 && value <= 0.226345) {
+                    } else if (value >= 0.191818 && value <= 0.295400) {
             style = [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(245,144,83,0.5)'}),
+        fill: new ol.style.Fill({color: 'rgba(254,201,128,0.5)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })]
-                    } else if (value >= 0.226345 && value <= 0.295400) {
+                    } else if (value >= 0.295400 && value <= 0.398982) {
             style = [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(254,223,153,0.5)'}),
+        fill: new ol.style.Fill({color: 'rgba(199,232,173,0.5)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })]
-                    } else if (value >= 0.295400 && value <= 0.364455) {
-            style = [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(221,241,180,0.5)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
-    })]
-                    } else if (value >= 0.364455 && value <= 0.433510) {
-            style = [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(145,203,168,0.5)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
-    })]
-                    } else if (value >= 0.433510 && value <= 0.560440) {
+                    } else if (value >= 0.398982 && value <= 0.560440) {
             style = [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(43,131,186,0.5)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,

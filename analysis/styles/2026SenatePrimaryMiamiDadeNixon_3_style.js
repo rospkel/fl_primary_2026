@@ -1,14 +1,14 @@
 var size = 0;
 var placement = 'point';
 
-var style_TurnoutMiamiDade_1 = function(feature, resolution){
+var style_2026SenatePrimaryMiamiDadeNixon_3 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
     };
     
     var labelText = ""; 
-    var value = feature.get("% Dem");
+    var value = feature.get("DEM United States Senator-results-Miami-Dade_Angie Nixon %");
     var labelFont = "10px, sans-serif";
     var labelFill = "#000000";
     var bufferColor = "";
